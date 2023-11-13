@@ -36,3 +36,6 @@ sns.histplot(df["chlorides"])
 fig = px.scatter(df, x="residual sugar", y="density")
 fig.show()
 # %%
+fig = px.box(df, x="residual sugar")
+fig.show()
+# %%
